@@ -1,0 +1,26 @@
+.candidate-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+}
+
+.candidate-card h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.candidate-card button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.candidate-card button:disabled {
+  background-color: #ccc;
+}
